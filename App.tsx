@@ -14,8 +14,7 @@ import {Alert, Image, StyleSheet, View, Text} from 'react-native';
 import {DefaultButton} from './src/components';
 
 import {colors} from './src/utils/theme';
-import {DEVICE_HEIGHT, DEVICE_WIDTH} from './src/utils/dimensions';
-import { Colors } from 'react-native/Libraries/NewAppScreen';
+import {DEVICE_WIDTH} from './src/utils/dimensions';
 
 const showAlert = () => {
   Alert.alert('Hola!');
@@ -47,7 +46,7 @@ const App = () => {
         textSize={24}
       />
     </View>
- );
+  );
 };
 
 const styles = StyleSheet.create({
