@@ -43,7 +43,7 @@ const App = () => {
         color={colors.mainOrange}
         // additionalStyle={styles.button}
         onPress={showAlert}
-        text="Hola"
+        text={24}
         textSize={24}
       />
     </View>
